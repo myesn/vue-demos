@@ -1,0 +1,24 @@
+{
+  "name": "vuewebpack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode staging",
+    "inspect": "vue-cli-service inspect"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta2",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.32.8",
+    "sass-loader": "10.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
